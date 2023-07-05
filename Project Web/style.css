@@ -1,0 +1,51 @@
+body{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.login{
+    background-image: url(img/bgweb.png);
+    background-size: cover;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    
+}
+
+
+.login-box {
+    width: 500px;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .container-home {
+    display: flex;
+  } 
+
+  left-section {
+    flex: 1;
+  }
+
+  .right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .right-section p {
+    font-size: 24px;
+    padding: 20px;
+    font-weight: bold;
+  }
+  
